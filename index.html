@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VD Chat App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="chat_section">
+        <div class="brand">
+            <img height="60px"  width = "60px"src="/logo.jpg" alt="" srcset="">
+            <h1>VD Chat App</h1>
+        </div>
+        <div class="message_area"></div>
+        <!-- <textarea id="textarea" cols="30" rows="1" placeholder="Write a Message"></textarea> -->
+        <input type="text" id="textarea" placeholder="Write a Message">
+        <button id = 'btn' >Send</button>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
